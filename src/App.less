@@ -1,0 +1,27 @@
+.app {
+    height: 100%;
+    overflow: hidden;
+}
+
+body,
+ul,
+div,
+main,
+aside,
+iframe,
+section {
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: 0 0 0;
+        background-color: transparent;
+    }
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+        background-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: rgba(150, 150, 150, 0.35);
+    }
+}

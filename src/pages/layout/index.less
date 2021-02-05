@@ -1,0 +1,41 @@
+.layout {
+    height: 100%;
+    .trigger {
+        font-size: 18px;
+        line-height: 64px;
+        padding: 0 24px;
+        cursor: pointer;
+        transition: color 0.3s;
+        &:hover {
+            color: #1890ff;
+        }
+    }
+    .logo {
+        height: 32px;
+        margin: 16px;
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    .tabsBox {
+        :global(.ant-tabs-tab) {
+            border-color: #fff !important;
+        }
+    }
+  
+    .siteLayout {
+        .siteLayoutBackground {
+            background: #fff;
+        }
+        .normalContent {
+            height: 100%;
+            padding: 24px;
+            margin: 24px 16px;
+            position: relative;
+        }
+        .tabsContent {
+            height: 100%;
+            margin: 24px 16px;
+            position: relative;
+        }
+    }
+}

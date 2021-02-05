@@ -1,0 +1,33 @@
+.normal {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    :global {
+        .ant-card-head {
+            .ant-card-head-wrapper {
+                line-height: 56px;
+                .ant-card-head-title {
+                    padding: initial;
+                }
+                .ant-card-extra {
+                    padding: initial;
+                }
+            }
+            .ant-tabs-bar {
+                border-bottom: none;
+                .ant-tabs-nav-wrap {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .ant-card-actions {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            background: white;
+            box-shadow: 0px -10px 10px -15px #111;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.modalBox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0 0 2px 1px #ccc;
+    &.tabsModalBox {
+        height: calc(100% - 40px);
+        top: 40px;
+    }
+    .childBox {
+        min-width: 0;
+        height: 100%;
+        flex: 1;
+    }
+    .operateBox {
+        height: 56px;
+        line-height: 56px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        z-index: 999;
+    }
+    .operateLeftBox {
+        cursor: pointer;
+        .icon {
+            margin: 0 5px;
+            color: #646464;
+        }
+        span {
+            color: #333333;
+        }
+    }
+    .operateRightBox {
+        .icon {
+            margin: 0 10px;
+        }
+    }
+    .leftPosition {
+        position: absolute;
+        left: 0;
+    }
+    .rightPosition {
+        position: absolute;
+        right: 0;
+    }
+}
+.flexFlow {
+    flex-flow: row-reverse;
+}
