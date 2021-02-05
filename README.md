@@ -8,10 +8,10 @@ tabs选项卡模式（layout布局），可切换普通路由模式或是tabs模
 全局content弹窗组件，已处理tabs模式下的兼容。
 
 ## tabs模式
-![Image text](https://ae01.alicdn.com/kf/U796fb9dfac0648a6a9c85d9291aeaf2cT.jpg)  
-![Image text](https://ae01.alicdn.com/kf/Uda56deb99dfc46529b86e9d28870a6157.jpg)  
-![Image text](https://ae01.alicdn.com/kf/U943ef24364da4741b1d7f1be0aec40eaV.jpg)  
-![Image text](https://ae01.alicdn.com/kf/U74c47b2550d4481ea11b74b3ee8ae993s.jpg)
+![首页展示](img/tabs1.jpg)  
+![其他页面展示](img/tabs2.jpg)  
+![选项卡操作](img/tabs3.jpg)  
+![全局content区域弹窗](img/tabs4.jpg)
 
 ## 普通模式
-![Image text](https://ae01.alicdn.com/kf/Ueeda9cb4bd0d4681aa1bb2eeb422da14o.jpg)
+![普通后台模式](img/normal1.jpg)
