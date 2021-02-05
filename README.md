@@ -8,7 +8,7 @@ tabs选项卡模式（layout布局），可切换普通路由模式或是tabs模
 全局content弹窗组件，已处理tabs模式下的兼容。
 
 ## tabs模式
-![首页展示](https://github.com/niaonile/react-admin-antd4/tree/master/screenshots/tabs1.png)  
+![首页展示](screenshots/tabs1.png)  
 ![其他页面展示](screenshots/tabs2.png)  
 ![选项卡操作](screenshots/tabs3.png)  
 ![全局content区域弹窗](screenshots/tabs4.png)
